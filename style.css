@@ -3,4 +3,17 @@ body
 .right{
     display: flex;
     flex-direction: column;
+    margin: 5px;
+    border: 2px solid black;
+    padding: 20px;
+    /* display: inline-block; */
+}
+
+.input-text{
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+#image-upload-button{
+    padding: 5px 15px;
 }
