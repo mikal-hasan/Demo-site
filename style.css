@@ -1,19 +1,26 @@
 body
 
-.right{
+main {
+    display: flex;
+
+}
+
+.right {
     display: flex;
     flex-direction: column;
     margin: 5px;
     border: 2px solid black;
     padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
     /* display: inline-block; */
 }
 
-.input-text{
+.input-text {
     margin: 5px 0px;
     padding: 5px;
 }
 
-#image-upload-button{
+#image-upload-button {
     padding: 5px 15px;
 }
