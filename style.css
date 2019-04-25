@@ -1,4 +1,6 @@
-body
+body {
+
+}
 
 main {
     display: flex;
@@ -8,19 +10,27 @@ main {
 .right {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 5px;
     border: 2px solid black;
     padding: 20px;
     width: 50%;
     box-sizing: border-box;
-    /* display: inline-block; */
 }
 
 .input-text {
     margin: 5px 0px;
     padding: 5px;
+    box-sizing: border-box;
+    width: 80%;
 }
 
 #image-upload-button {
     padding: 5px 15px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.radio-button {
+    display: inline;
 }
